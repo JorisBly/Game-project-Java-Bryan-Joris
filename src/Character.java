@@ -5,7 +5,6 @@ public class Character {
     Damageskill attack2;
     Damageskill attack3;
     Damageskill attack4;
-    Classe classe;
 
 
 
@@ -16,7 +15,6 @@ public class Character {
         this.attack2 = attack2;
         this.attack3 = attack3;
         this.attack4 = attack4;
-        this.classe = classe;
 
     }
 

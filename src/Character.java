@@ -8,7 +8,7 @@ public class Character {
 
 
 
-    public Character(String name,int pv,Damageskill attack1, Damageskill attack2, Damageskill attack3, Damageskill attack4,Classe classe) {
+    public Character(String name,int pv,Damageskill attack1, Damageskill attack2, Damageskill attack3, Damageskill attack4) {
         this.name = name;
         this.pv = pv;
         this.attack1 = attack1;

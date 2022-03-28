@@ -1,10 +1,11 @@
 public class Character {
     String name;
     int pv;
-    int attack1;
-    Damageskill attack2;
-    Damageskill attack3;
-    Damageskill attack4;
+    Damageskill attackCharacter1;
+    Damageskill attackCharacter2;
+    Damageskill attackCharacter3;
+    Damageskill attackCharacter4;
+
 
 
 
@@ -19,9 +20,12 @@ public class Character {
     }*/
 
 
-    public Character(String nameCharacter, int pvCharacter, int attackCharacter) {
+    public Character(String nameCharacter, int pvCharacter, Damageskill attackCharacter1,Damageskill attackCharacter2,Damageskill attackCharacter3,Damageskill attackCharacter4) {
         this.name = nameCharacter;
         this.pv = pvCharacter;
-        this.attack1 = attackCharacter;
+        this.attackCharacter1 = attackCharacter1;
+        this.attackCharacter2 = attackCharacter2;
+        this.attackCharacter3 = attackCharacter3;
+        this.attackCharacter4 = attackCharacter4;
     }
 }

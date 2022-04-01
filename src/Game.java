@@ -16,7 +16,7 @@ public class Game {
     public static void main(String[] args) {
 
 createCharacterIfSetYes(startGame());
-        System.out.println(createTheCharacter());
+
 
 
     }
@@ -99,11 +99,6 @@ createCharacterIfSetYes(startGame());
 
     }
 }
-
-
-
-
-
 
      /*
                  -----------------------------------------------Création de perso-----------------------------------------------------------------------------------------
@@ -203,5 +198,3 @@ createCharacterIfSetYes(startGame());
         System.out.print("Ah bah tu sais pas ce que tu rates mon gars");
     }
 */
-
-

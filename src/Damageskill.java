@@ -8,11 +8,12 @@ public class Damageskill {
     public String toString() {
         return
                 name + " | " +
-                 "Dégats : " + damage + " " +
-                        "Vampirisme : " +  vampire + " " +
-                        "Coûts en PA : " +  actionPoint +
-                '}';
+                 "Dégats : " + damage + " | " +
+                        "Vampirisme : " +  vampire + " | " +
+                        "Coûts en PA : " +  actionPoint + " " ;
     }
+
+
 
     public Damageskill(String name, int damage, int vampire, int actionPoint) {
         this.name = name;

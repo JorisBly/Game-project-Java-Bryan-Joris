@@ -19,8 +19,18 @@ public class Character {
 
     }*/
 
+    @Override
+    public String toString() {
+        return "Votre personnage :\n" + "\n" +
+                " Nom : " + name + "\n" + "\n" +
+                " Points de vies : " + pv + "\n" +
+                "Attaque 1 : \n" + attackCharacter1 + "\n" + "\n" +
+                "Attaque 2 : \n" + attackCharacter2 + "\n" + "\n" +
+                "Attaque 3 : \n" + attackCharacter3 + "\n" + "\n" +
+                "Attaque 4 : \n" + attackCharacter4 + "\n" + "\n" + "\n" + "---------------------------------------------------------------------------" ;
+    }
 
-    public Character(String nameCharacter, int pvCharacter, Damageskill attackCharacter1,Damageskill attackCharacter2,Damageskill attackCharacter3,Damageskill attackCharacter4) {
+    public Character(String nameCharacter, int pvCharacter, Damageskill attackCharacter1, Damageskill attackCharacter2, Damageskill attackCharacter3, Damageskill attackCharacter4) {
         this.name = nameCharacter;
         this.pv = pvCharacter;
         this.attackCharacter1 = attackCharacter1;
